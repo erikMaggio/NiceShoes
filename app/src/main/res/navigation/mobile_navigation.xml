@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.ventazapas.ui.fragment.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_shoes_fragment"
+        android:name="com.example.ventazapas.ui.fragment.client.ShoesFragment"
+        android:label="@string/nav_shoes"
+        tools:layout="@layout/fragment_shoes" >
+        <action
+            android:id="@+id/action_nav_shoes_fragment_to_detailsShoesFragment"
+            app:destination="@id/detailsShoesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.example.ventazapas.ui.fragment.client.MyOrdersFragment"
+        android:label="@string/nav_my_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/nav_stateAccountFragment"
+        android:name="com.example.ventazapas.ui.fragment.client.StateAccountFragment"
+        android:label="@string/nav_state_account"
+        tools:layout="@layout/fragment_state_account" />
+    <fragment
+        android:id="@+id/nav_favoriteFragment"
+        android:name="com.example.ventazapas.ui.fragment.client.FavoriteFragment"
+        android:label="@string/nav_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/nav_offersFragment"
+        android:name="com.example.ventazapas.ui.fragment.client.OffersFragment"
+        android:label="@string/nav_offers"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/nav_purchaseHistoryFragment"
+        android:name="com.example.ventazapas.ui.fragment.client.PurchaseHistoryFragment"
+        android:label="@string/nav_purchase_history"
+        tools:layout="@layout/fragment_purchase_history" />
+    <fragment
+        android:id="@+id/nav_addShoesFragment"
+        android:name="com.example.ventazapas.ui.fragment.admin.AddShoesFragment"
+        android:label="@string/nav_add_shoes"
+        tools:layout="@layout/fragment_add_shoes" />
+    <fragment
+        android:id="@+id/nav_sellShoesFragment"
+        android:name="com.example.ventazapas.ui.fragment.admin.SellShoesFragment"
+        android:label="@string/nav_sell_shoes"
+        tools:layout="@layout/fragment_sell_shoes" />
+    <fragment
+        android:id="@+id/nav_changePriceFragment"
+        android:name="com.example.ventazapas.ui.fragment.admin.ChangePriceFragment"
+        android:label="@string/nav_change_price"
+        tools:layout="@layout/fragment_change_price" />
+    <fragment
+        android:id="@+id/nav_stateAccountAdminFragment"
+        android:name="com.example.ventazapas.ui.fragment.admin.StateAccountAdminFragment"
+        android:label="@string/nav_state_account"
+        tools:layout="@layout/fragment_state_account_admin" />
+    <fragment
+        android:id="@+id/nav_clientFragment"
+        android:name="com.example.ventazapas.ui.fragment.admin.ClientFragment"
+        android:label="@string/nav_client"
+        tools:layout="@layout/fragment_client" />
+    <fragment
+        android:id="@+id/nav_modifyShoeListFragment"
+        android:name="com.example.ventazapas.ui.fragment.admin.ModifyShoeListFragment"
+        android:label="@string/nav_modify_shoe_list"
+        tools:layout="@layout/fragment_modify_shoe_list" />
+    <fragment
+        android:id="@+id/detailsShoesFragment"
+        android:name="com.example.ventazapas.ui.fragment.client.DetailsShoesFragment"
+        android:label="@string/nav_details"
+        tools:layout="@layout/fragment_details_shoes" />
+</navigation>

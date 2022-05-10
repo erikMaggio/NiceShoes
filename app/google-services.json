@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "285370486898",
+    "project_id": "niceshoes-2abc5",
+    "storage_bucket": "niceshoes-2abc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285370486898:android:d2328c2630ca55da4f72eb",
+        "android_client_info": {
+          "package_name": "com.example.ventazapas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285370486898-uhk35gflk0f2n5sorrk769qtevsdiaie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ventazapas",
+            "certificate_hash": "f5e1f3abd67436babe99bb9153dec827b1a01b30"
+          }
+        },
+        {
+          "client_id": "285370486898-mp0mjk23rtot1sb4dae63jmud7qhhb99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpnDcinHPwJuOtUGFZMiRNc4SvIVUHE1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285370486898-mp0mjk23rtot1sb4dae63jmud7qhhb99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
